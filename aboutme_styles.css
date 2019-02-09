@@ -31,20 +31,33 @@ html{
     margin-top: 20px;
     border-color: darkslategray;
 }
-p,h1,li{
+h1,li{
     font-family: 'Indie Flower', cursive;
     text-align: center;
-    color:#2e2e2e;
+    color: white;
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: white;
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color:white;
 }
 li,p{
     font-size: 20px;
 }
-li:hover,p:hover,h1:hover{
+li:hover,p:hover,h1:hover,h3:hover{
     color: rgb(201, 10, 10);
     cursor: pointer;
 }
 li{
     list-style-type: none;
+}
+ol>a{
+    display: inline;
 }
 .MyFilms>h1{
     background-color: #07ba6f;
@@ -52,12 +65,7 @@ li{
     margin-right: 10%;
     margin-left: 10%;
 }
-.Images{
-    margin-right: 15%;
-    margin-left: 15%; 
-    width: auto;
-    height: auto;
-}
+
 .Mood_header{
     background-color: steelblue;
     width: 80%;
@@ -83,3 +91,15 @@ img{
       width: 100%;
     }
   }
+.Happy{
+    width: 90%;
+}
+.Sad{
+    width: 90%;
+}
+.Neighbours>h1{
+    background-color: orange;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
